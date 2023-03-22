@@ -18,3 +18,11 @@ body{
     flex-direction: column;
     margin: 20px;
 }
+#related .related_box .show{
+    height: 0px;
+    overflow: hidden;
+    transition: height 1s;
+}
+#related .related_box:hover .show{
+    height: 150px;
+}
